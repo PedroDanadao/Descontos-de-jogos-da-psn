@@ -10,31 +10,9 @@ def main():
 
     #sempre que quiser adicionar um jogo você vai seguir o seguinte modelo
     #links["nome do jogo"] = "link do jogo"(no psprices.com, e tem que ser na versão br)
-
+#ex.
     #Overwatch
     links["Overwatch"] = "https://psprices.com/region-br/game/191580/overwatch-origins-edition"
-    #Horizon zero Dawn
-    links["Horizon"] = "https://psprices.com/region-br/game/256271/horizon-zero-dawn"
-    #The last Guardian
-    links["The Last Guardian"] = "https://psprices.com/region-br/game/257623/the-last-guardian"
-    #Ratchet and Clanck
-    links["Ratchet and Clanck"] = "https://psprices.com/region-br/game/100525/ratchet-and-clanktm"
-    #Trackmania Turbo
-    links["Trackmania Turbo"] = "https://psprices.com/region-br/game/217465/trackmania-turbo"
-    #Firewatch
-    links["Firewatch"] = "https://psprices.com/region-br/game/151026/firewatch"
-    #Bioshock Collection
-    links["Bioshock Collection"] = "https://psprices.com/region-br/game/834037/bioshock-the-collection"
-    #Valkyria Chronicles
-    links["Valkyria Chronicles"] = "https://psprices.com/region-br/game/254597/valkyria-chronicles-remastered"
-    #Gravity Rush Remaster
-    links["Gravity Rush Remaster"] = "https://psprices.com/region-br/game/119539/gravity-rushtm-remastered"
-    #Fallout 4
-    links["Fallout 4"] = "https://psprices.com/region-br/game/116287/fallout-4-digital-deluxe-bundle"
-    #Odin Sphere
-    links["Odin Sphere"] = "https://psprices.com/region-br/game/256507/odin-sphere-leifthrasir"
-    #The Witness
-    links["The Witness"] = "https://psprices.com/region-br/game/126482/the-witness"
     
     #cria um novo dicionario com os jogos em ordem alfabetica
     links_o = OrderedDict(sorted(links.items()))
